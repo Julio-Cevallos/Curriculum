@@ -1,1 +1,3 @@
-# Curriculum
+# Ingeniero en Ciencias de la Computacion
+
+Ingeniero en Ciencias de la Computación con sólida formación y experiencia en desarrollo de software, especializado en programación orientada a objetos y diseño eficiente de sistemas. Competente en lenguajes como Python y Java, con conocimientos intermedios en bases de datos relacionales utilizando MySQL y SQL. Experto en aplicar patrones de diseño, detectar y corregir code smells, y promover buenas prácticas de desarrollo para mejorar la mantenibilidad y calidad del código. Amplia comprensión de estructuras de datos y algoritmos, así como de redes de datos, lo que permite diseñar soluciones integrales y optimizadas. Orientado a resultados, con capacidad para trabajar en equipo y adaptarse a entornos dinámicos de desarrollo.
