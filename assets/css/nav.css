@@ -1,4 +1,4 @@
-/* Elimina márgenes por defecto */
+* Elimina márgenes por defecto */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
@@ -38,45 +38,7 @@ nav a:hover{
     color: #00FF00;
 }
 
-/* Título centrado debajo del menú */
-h1 {
-  margin-top: 80px;    /* Espacio para que no se solape con el nav */
-  text-align: center;
-  font-size: 2.5em;
-  color: #222;
-}
 
-#presentacion {
-  display: flex;           /* Imagen y texto en línea */
-  align-items: center;     /* Centra verticalmente */
-  gap: 20px;               /* Espacio entre imagen y texto */
-  padding: 20px;
-}
-
-#presentacion .foto {
-  width: 150px;
-  height: auto;
-  border-radius: 50%;
-}
-
-#presentacion .texto {
-  flex: 1;                 /* Ocupa el resto del espacio */
-}
-
-/* El título encima del párrafo */
-#presentacion .texto h2 {
-  margin: 0 0 10px 0;      /* Espacio debajo del título */
-  font-weight: bold;
-}
-
-#presentacion .texto p {
-  text-align: justify;
-  margin: 0;
-}
-
-#resumen h3 {
-  font-weight: bold;
-}
 footer{
   position: fixed;       /* Fija el footer en pantalla */
   bottom: 0;             /* Lo coloca en la parte inferior */
