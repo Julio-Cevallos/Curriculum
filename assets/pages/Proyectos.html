@@ -1,20 +1,75 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Refrescar la página cada 30 segundos -->
+    <meta http-equiv="refresh" content="30">
+    <!-- Palabras clave -->
+    <meta name="keywords" content="HTML, CSS, CURRICULUM, Proyectos, Julio Cevallos">
+    <!-- Autor -->
+    <meta name="author" content="Julio Cevallos">
+    <!-- Descripción -->
+    <meta name="description" content="Proyectos realizados durante mi formación profesional.">
+    <title>Proyectos</title>
+    <link rel="icon" type="image/png" href="../img/proyectos.png">
+    <link rel="stylesheet" href="../css/style_reset.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/proyectos.css">
+</head>
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <!-- Refrescar la página cada 10 segundos -->
-        <meta http-equiv="refresh" content="30">
-        <!-- Palabras claves -->
-        <meta name="keywords" content="HTML, CSS, CURRICULUM">
-        <!-- Autor -->
-        <meta name="author" content="Julio Cevallos">
-        <!-- Descripción -->
-        <meta name="descrption" content="Trabajos realizados durante mi formación profesional.">
-        <title> Proyectos </title>
-    </head>
+<body>
+    <header>
+        <h1>Proyectos Realizados</h1>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../pages/Inf_personal.html">Información General</a></li>
+                <li><a href="../pages/Habilidades.html">Habilidades</a></li>
+                <li><a href="../pages/Proyectos.html" class="activo">Proyectos</a></li>
+                <li><a href="../pages/Educacion.html">Educación</a></li>
+                <li><a href="../pages/Premio_honor.html">Premios y Honores</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <body>
+    <main>
+        <!-- Proyecto 1 -->
+        <section id="p1" class="proyecto">
+            <img src="../img/bases_datos.png" alt="Base de datos para finanzas personales" width="600" height="400">
+            <div class="texto">
+                <h2>Base de Datos para Finanzas Personales</h2>
+                <p>Desarrollo de un sistema de gestión de finanzas personales mediante una base de datos relacional. El proyecto incluyó el diseño de tablas, relaciones, consultas y reportes que permiten registrar ingresos, gastos y generar análisis financieros personalizados, facilitando la toma de decisiones económicas de manera organizada y eficiente.</p>
+                <p>Enlace: <a href="https://github.com/Julio-Cevallos/Base-de-Datos-Financiera" target="_blank" rel="noopener noreferrer">Base_de_Datos</a></p>
+            </div>
+        </section>
 
-    </body>
+        <hr>
+
+        <!-- Proyecto 2 -->
+        <section id="p2" class="proyecto">
+            <img src="../img/aplicacion_finanzas.png" alt="Aplicación de finanzas personales" width="600" height="400">
+            <div class="texto">
+                <h2>Aplicación de Finanzas Personales</h2>
+                <p>Implementación de una aplicación bancaria que permite la administración de cuentas, transferencias y transacciones financieras de forma segura. El proyecto contempló la integración de interfaces de usuario, validaciones, almacenamiento de datos y protocolos de seguridad, proporcionando una experiencia confiable y práctica para la gestión financiera digital.</p>
+                <p>Enlace: <a href="https://github.com/Julio-Cevallos/Aplicacion-Financiera" target="_blank" rel="noopener noreferrer">Aplicación_Finanzas</a></p>
+            </div>
+        </section>
+
+        <hr>
+
+        <!-- Proyecto 3 -->
+        <section id="p3" class="proyecto">
+            <img src="../img/builder.png" alt="Diseño de software" width="600" height="400">
+            <div class="texto">
+                <h2>Diseño de Software</h2>
+                <p>Proyecto enfocado en el diseño de software aplicando principios de arquitectura, modelado de clases y patrones de diseño. Incluyó la planificación de módulos, diagramas de flujo y documentación técnica, garantizando la escalabilidad, mantenimiento y eficiencia del sistema desarrollado, así como la correcta implementación de buenas prácticas en ingeniería de software.</p>
+                <p>Enlace: <a href="https://github.com/Julio-Cevallos/Taller01-Ramas" target="_blank" rel="noopener noreferrer">Diseño de Software</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>@ 2025 - Curriculum <br> jujoceva@espol.edu.ec</p>
+    </footer>
+</body>
 </html>

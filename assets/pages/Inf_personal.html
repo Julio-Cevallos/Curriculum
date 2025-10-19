@@ -1,35 +1,69 @@
 <!DOCTYPE html>
-
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <!-- Refrescar la página cada 10 segundos -->
-        <meta http-equiv="refresh" content="30">
-        <!-- Palabras claves -->
-        <meta name="keywords" content="HTML, CSS, CURRICULUM">
-        <!-- Autor -->
-        <meta name="author" content="Julio Cevallos">
-        <!-- Descripción -->
-        <meta name="descrption" content="Datos relevantes a mi persona.">
-        <title> Información Personal </title>
-        <link rel="stylesheet" href="../css/style_reset.css">
-        <link rel="stylesheet" href="../css/nav.css">
-    </head>
 
-    <body>
+<head>
+    <meta charset="UTF-8">
+    <!-- Palabras claves -->
+    <meta name="keywords" content="HTML, CSS, CURRICULUM">
+    <!-- Autor -->
+    <meta name="author" content="Julio Cevallos">
+    <!-- Descripción -->
+    <meta name="description" content="Datos relevantes a mi persona.">
+    <title>Información Personal</title>
+    <link rel="icon" type="image/png" href="../img/inf_personal.png">
+    <link rel="stylesheet" href="../css/style_reset.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/inf_personal.css">
+</head>
 
+<body>
     <header>
-        <h1> Ingeniero en Ciencias de la Computación </h1>   
         <nav>
             <ul>
-                <li> <a href="../pages/Inf_personal.html"> Información General </a></li>
-                <li> <a href="../pages/Habilidades.html"> Habilidades </a></li>
-                <li> <a href="../pages/Proyectos.html"> Proyectos </a></li>
-                <li> <a href="../pages/Educacion.html"> Educación </a></li>
-                <li> <a href="../pages/Premio_honor.html"> Premios y Honores </a></li>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../pages/Inf_personal.html">Información General</a></li>
+                <li><a href="../pages/Habilidades.html">Habilidades</a></li>
+                <li><a href="../pages/Proyectos.html">Proyectos</a></li>
+                <li><a href="../pages/Educacion.html">Educación</a></li>
+                <li><a href="../pages/Premio_honor.html">Premios y Honores</a></li>
             </ul>
         </nav>
     </header>
-        <image src="../img/mi_foto.jpeg" type="image/jpeg" width="300" height="400"></image>
-    </body>
+
+    <!-- Contenido principal -->
+    <main>
+        <div class="perfil">
+            <img src="../img/mi_foto.jpeg" alt="Foto de Julio Cevallos" width="300" height="400">
+            <div class="inf_personal">
+                <h2>Datos Personales:</h2>
+                <p><strong>Nombres:</strong> Julio José</p>
+                <p><strong>Apellidos:</strong> Cevallos Vaca</p>
+                <p><strong>Título Profesional:</strong> Ingeniero en Ciencias de la Computación</p>
+                <p><strong>Número de Teléfono:</strong> 0992300774</p>
+                <p><strong>Correo Profesional:</strong> jujoceva@espol.edu.ec</p>
+                <p><strong>Dirección:</strong> Bellavista Norte, Río Pindo y Río Coca</p>
+                <p><strong>Nacionalidad:</strong> Ecuatoriano</p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/Julio-Cevallos" target="_blank">Julio-Cevallos</a></p>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/julio-cevallos-447622277/" target="_blank">Julio-Cevallos</a></p>
+            </div>
+        </div>
+
+        <div style="text-align:center; margin:20px 0;">
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSdEiFBLu1LDCQonIOtgBqaKmvAGsqAQ4r3XfSh9FXi5whDQgw/viewform?usp=sharing&ouid=109394896281120530684"
+                width="700"
+                height="800"
+                frameborder="0"
+                marginheight="0"
+                marginwidth="0">
+                Cargando…
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>@ 2025 - Curriculum <br> jujoceva@espol.edu.ec</p>
+    </footer>
+</body>
+
 </html>

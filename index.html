@@ -3,54 +3,64 @@
 
 <head>
     <meta charset="UTF-8">
-    <!-- Refrescar la página cada 10 segundos -->
+    <!-- Refrescar la página cada 30 segundos -->
     <meta http-equiv="refresh" content="30">
     <!-- Palabras claves -->
     <meta name="keywords" content="HTML, CSS, CURRICULUM">
     <!-- Autor -->
     <meta name="author" content="Julio Cevallos">
     <!-- Descripción -->
-    <meta name="descrption" content="Curriculum de un Ing. en Ciencias de la Computación">
+    <meta name="description" content="Curriculum de un Ing. en Ciencias de la Computación">
 
-    <title> Página de Inicio </title>
+    <title>Página de Inicio</title>
     <link rel="icon" type="image/png" href="assets/img/vaca.png">
     <link rel="stylesheet" href="assets/css/style_reset.css">
     <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
 </head>
 
 <body>
 
     <header>
-        <h1> Ingeniero en Ciencias de la Computación </h1>   
+        <h1>Ingeniero en Ciencias de la Computación</h1>   
         <nav>
             <ul>
-                <li> <a href="assets/pages/Inf_personal.html"> Información General </a></li>
-                <li> <a href="assets/pages/Habilidades.html"> Habilidades </a></li>
-                <li> <a href="assets/pages/Proyectos.html"> Proyectos </a></li>
-                <li> <a href="assets/pages/Educacion.html"> Educación </a></li>
-                <li> <a href="assets/pages/Premio_honor.html"> Premios y Honores </a></li>
+                <li><a href="assets/../index.html">Inicio</a></li>
+                <li><a href="assets/pages/Inf_personal.html">Información General</a></li>
+                <li><a href="assets/pages/Habilidades.html">Habilidades</a></li>
+                <li><a href="assets/pages/Proyectos.html">Proyectos</a></li>
+                <li><a href="assets/pages/Educacion.html">Educación</a></li>
+                <li><a href="assets/pages/Premio_honor.html">Premios y Honores</a></li>
             </ul>
         </nav>
     </header>
 
-    
-    <section id="presentacion">
-        <img src="assets/img/mi_foto.jpeg" alt="Foto de Julio Cevallos" width="300" height="400" class="foto"/>
-        <div class="texto">
-        <h2>Desarrollador y entusiasta de la tecnología</h2>
-        <p> Apasionado por el desarrollo de software, la innovación tecnológica y el aprendizaje continuo, busco aplicar mis habilidades en proyectos que desafíen mis capacidades, con el objetivo de mejorar constantemente y superarme a mí mismo. </p>
-        <p> Soy una persona optimista, comprometida y responsable, con una gran motivación por asumir nuevos retos. Me fascinan áreas como la ciencia de datos y el desarrollo de videojuegos, y disfruto explorando nuevas oportunidades para aprender, crear soluciones innovadoras y aportar valor en cada proyecto en el que participo. </p>
-        </div>
-    </section>
+    <!-- Contenido principal -->
+    <main>
+        <section id="presentacion">
+            <img src="assets/img/mi_foto.jpeg" alt="Foto de Julio Cevallos" class="foto">
+            <div class="texto">
+                <h2>Desarrollador y entusiasta de la tecnología</h2>
+                <p>Apasionado por el desarrollo de software, la innovación tecnológica y el aprendizaje continuo, busco aplicar mis habilidades en proyectos que desafíen mis capacidades, con el objetivo de mejorar constantemente y superarme a mí mismo.</p>
+                <p>Soy una persona optimista, comprometida y responsable, con una gran motivación por asumir nuevos retos. Me fascinan áreas como la ciencia de datos y el desarrollo de videojuegos, y disfruto explorando nuevas oportunidades para aprender, crear soluciones innovadoras y aportar valor en cada proyecto en el que participo.</p>
+            </div>
+        </section>
 
-    <section id="resumen">
-        <h3> Resumen Profesional </h3>
-        <p> Soy un profesional apasionado por la programación y el desarrollo de software, con experiencia avanzada en lenguajes como Java y Python, y habilidades intermedias en bases de datos MySQL. Cuento con un sólido dominio en diseño de software, aplicando patrones de diseño, identificando code smells y utilizando técnicas de refactorización para crear código más eficiente, mantenible y escalable. Además, poseo conocimientos básicos en Linux, así como en redes de datos, circuitos eléctricos y principios de electricidad, lo que me permite comprender e integrar aspectos tanto de software como de hardware en los proyectos que desarrollo. Mi enfoque multidisciplinario y mi curiosidad constante me impulsan a aprender nuevas tecnologías y a aplicar soluciones innovadoras en cada desafío profesional. </p>
-    </section>
+        <hr>
+
+        <section id="resumen">
+            <img src="assets/img/computacion.png" alt="Icono de computación" width="500" height="350" class="computacion">
+            <div class="text">
+                <h3>Resumen Profesional</h3>
+                <p>Soy un profesional apasionado por la programación y el desarrollo de software, con experiencia avanzada en lenguajes como Java y Python, y habilidades intermedias en bases de datos MySQL. Cuento con un sólido dominio en diseño de software, aplicando patrones de diseño, identificando code smells y utilizando técnicas de refactorización para crear código más eficiente, mantenible y escalable. Además, poseo conocimientos básicos en Linux, así como en redes de datos, circuitos eléctricos y principios de electricidad, lo que me permite comprender e integrar aspectos tanto de software como de hardware en los proyectos que desarrollo. Mi enfoque multidisciplinario y mi curiosidad constante me impulsan a aprender nuevas tecnologías y a aplicar soluciones innovadoras en cada desafío profesional.</p>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p> @ 2025 - Curriculum <br> jujoceva@espol.edu.ec </p>
+        <p>@ 2025 - Curriculum <br> jujoceva@espol.edu.ec</p>
     </footer>
+
 </body>
 
 </html>

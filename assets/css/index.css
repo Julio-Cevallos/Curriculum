@@ -1,43 +1,3 @@
-/* Elimina márgenes por defecto */
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
-/* Estilo del encabezado */
-header {
-  position: relative;
-  padding: 20px;
-}
-
-nav {
-  position: absolute;
-  width: 100%;
-  background-color: #333;
-  padding: 15px 20px;
-  top: 20px;
-  left: 0;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  justify-content: flex-end; /* Esto mueve los enlaces a la derecha */
-  gap: 15px;
-}
-
-nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-}
-
-nav a:hover{
-    color: #00FF00;
-}
-
 /* Título centrado debajo del menú */
 h1 {
   margin-top: 80px;    /* Espacio para que no se solape con el nav */
@@ -54,7 +14,7 @@ h1 {
 }
 
 #presentacion .foto {
-  width: 150px;
+  width: 250px;
   height: auto;
   border-radius: 50%;
 }
@@ -67,22 +27,50 @@ h1 {
 #presentacion .texto h2 {
   margin: 0 0 10px 0;      /* Espacio debajo del título */
   font-weight: bold;
+  font-size: 160%;
 }
 
 #presentacion .texto p {
   text-align: justify;
   margin: 0;
+  font-size: 120%;
 }
 
-#resumen h3 {
+#resumen {
+  display: flex;          /* Coloca los elementos en línea */
+  align-items: center;    /* Centra verticalmente la imagen y el texto */
+  gap: 20px;              /* Espacio entre imagen y texto */
+  padding: 20px;          /* Espacio interno */
+}
+
+#resumen .computacion {
+  width: 500px;           /* Tamaño de la imagen */
+  height: auto;           /* Mantiene proporciones */
+  flex-shrink: 0;         /* Evita que la imagen se reduzca demasiado */
+}
+
+#resumen .text {
+  flex: 1;                /* Ocupa el espacio restante */
+}
+
+#resumen .text h3 {
+  margin: 0 0 10px 0;     /* Espacio debajo del título */
   font-weight: bold;
+  font-size: 1.6rem;
 }
-footer{
-  position: fixed;       /* Fija el footer en pantalla */
-  bottom: 0;             /* Lo coloca en la parte inferior */
-  left: 0;               /* Alineado a la izquierda */
-  background-color: #333; /* Color de fondo opcional */
-  color: white;          /* Texto blanco */
-  padding: 10px 20px;    /* Espaciado */
-  font-size: 14px;
+
+#resumen .text p {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: justify;
 }
+
+hr {
+    border: none;          /* elimina borde por defecto */
+    height: 2px;           /* grosor de la línea */
+    background-color: #ccc; /* color de la línea */
+    margin: 40px 0;        /* separación vertical antes y después de la línea */
+}
+
+
+

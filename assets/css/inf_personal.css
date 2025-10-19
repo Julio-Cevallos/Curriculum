@@ -1,0 +1,29 @@
+/* CSS */
+.perfil {
+  display: flex; /* Permite que imagen e información estén en línea */
+  align-items: center; /* Mantiene el texto centrado verticalmente */
+  gap: 20px; /* Espacio entre imagen y texto */
+  margin: 20px 0 20px 40px; /* 40px desde la izquierda */
+}
+
+.perfil-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover; /* Recorta la imagen si es necesario */
+  border-radius: 50%; /* Imagen circular */
+  border: 2px solid #333; /* Borde opcional */
+  margin-top: 20px; /* Imagen un poco más abajo */
+}
+
+.inf_personal h2 {
+  margin: 0;
+  font-size: 160%; /* Letra más grande para el nombre */
+  font-weight: bold;
+}
+
+.inf_personal p {
+  margin: 0px 0;
+  font-size: 120%; /* Letra más grande para el texto */
+  line-height: 1.5;
+}
+

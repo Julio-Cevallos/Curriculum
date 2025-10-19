@@ -1,34 +1,78 @@
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <!-- Refrescar la página cada 30 segundos -->
+    <meta http-equiv="refresh" content="30">
+    <!-- Palabras clave -->
+    <meta name="keywords" content="HTML, CSS, CURRICULUM, Educación, ESPOL, Julio Cevallos">
+    <!-- Autor -->
+    <meta name="author" content="Julio Cevallos">
+    <!-- Descripción -->
+    <meta name="description" content="Institución educativa encargada de mi formación profesional.">
+    <title>Educación</title>
+    <link rel="icon" type="image/png" href="../img/educacion.png">
+    <link rel="stylesheet" href="../css/style_reset.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/educacion.css">
+</head>
 
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <!-- Refrescar la página cada 10 segundos -->
-        <meta http-equiv="refresh" content="30">
-        <!-- Palabras claves -->
-        <meta name="keywords" content="HTML, CSS, CURRICULUM">
-        <!-- Autor -->
-        <meta name="author" content="Julio Cevallos">
-        <!-- Descripción -->
-        <meta name="descrption" content="Institución educativa encargada de mi formación profesional.">
-
-        <title> Educación </title>
-        <link rel="stylesheet" href="../css/style_reset.css">
-        <link rel="stylesheet" href="../css/nav.css">
-    </head>
-
-    <body>
+<body>
     <header>
-        <h1> Ingeniero en Ciencias de la Computación </h1>   
+        <h1>Escuela Superior Politécnica del Litoral - Ingeniero en Ciencias de la Computación</h1>   
         <nav>
             <ul>
-                <li> <a href="../pages/Inf_personal.html"> Información General </a></li>
-                <li> <a href="../pages/Habilidades.html"> Habilidades </a></li>
-                <li> <a href="../pages/Proyectos.html"> Proyectos </a></li>
-                <li> <a href="../pages/Educacion.html"> Educación </a></li>
-                <li> <a href="../pages/Premio_honor.html"> Premios y Honores </a></li>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../pages/Inf_personal.html">Información General</a></li>
+                <li><a href="../pages/Habilidades.html">Habilidades</a></li>
+                <li><a href="../pages/Proyectos.html">Proyectos</a></li>
+                <li><a href="../pages/Educacion.html" class="activo">Educación</a></li>
+                <li><a href="../pages/Premio_honor.html">Premios y Honores</a></li>
             </ul>
         </nav>
     </header>
-    </body>
+
+    <main>
+        <section class="contenedor">
+            <iframe width="560" height="315" 
+                src="https://www.youtube.com/embed/mom6gyI6YHM?si=2cux_RoG6eagSNt9" 
+                title="ESPOL recorrido" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen></iframe>
+
+            <div class="texto">
+                <p>
+                    <strong>Duración:</strong> 2023 - 2027 <br>
+                    Durante mi formación en ESPOL adquirí una sólida base técnica que abarca desde los fundamentos de programación orientada a objetos (POO) hasta el desarrollo de aplicaciones para web y móviles. Cursé asignaturas como <em>Estructuras de Datos</em> y <em>Análisis de Algoritmos</em>, que me permitieron dominar la organización eficiente de la información; <em>Diseño de Software</em>, donde aprendí patrones de diseño, detección de code smell y técnicas de refactorización; y <em>Sistemas Operativos</em>, con contenidos que incluyeron administración de procesos, hilos, memoria y sistemas de archivos.
+                </p>
+                <p>
+                    También profundicé en bases de datos relacionales (principalmente con MySQL) y adquirí competencia intermedia en su diseño, normalización y consulta. Además, amplié mis conocimientos en desarrollo de aplicaciones web y móviles, aplicando habilidades en lenguajes como Java y Python, y explorando entornos Linux, redes de datos y electrónica básica. Esto me proporciona una visión multidisciplinaria para integrar software, hardware y redes en mis proyectos.
+                </p>
+                <p>
+                    Mi formación se ha enfocado en la aplicación práctica de los conocimientos adquiridos, participando en proyectos académicos que integran programación, diseño de software y desarrollo de soluciones tecnológicas. Estos proyectos me han permitido fortalecer mis habilidades de análisis, resolución de problemas y trabajo en equipo, aplicando metodologías ágiles y buenas prácticas de ingeniería de software para crear aplicaciones funcionales y eficientes.
+                </p>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <h2>Ubicación del Campus</h2>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1993.5078355949324!2d-79.96649511363746!3d-2.1476863810038656!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d7301d30e8ff5%3A0x73c27660ff5791b!2sCampus%20Gustavo%20Galindo%20Velasco%20(ESPOL)!5e0!3m2!1ses-419!2sec!4v1760846960954!5m2!1ses-419!2sec"
+                width="1000"
+                height="600"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                title="Ubicación del campus ESPOL">
+            </iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>@ 2025 - Curriculum <br> jujoceva@espol.edu.ec</p>
+    </footer>
+</body>
 </html>
